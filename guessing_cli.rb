@@ -8,7 +8,7 @@ def run_guessing_game
   when "exit"
     puts "Goodbye"
     break
-  when comp_guess
+  when ans.to_i === comp_guess
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{comp_guess}."
