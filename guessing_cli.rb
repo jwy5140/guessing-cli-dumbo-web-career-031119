@@ -1,4 +1,4 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
-  ans = get.chomp
+  ans = gets.chomp
 end
