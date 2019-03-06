@@ -8,9 +8,8 @@ def run_guessing_game
     when "exit"
       puts "Goodbye!"
       return 0
-    when ans.to_i === comp_guess
+    when comp_guess.to_s
       puts "You guessed the correct number!"
-      return 0
     else
       puts "The computer guessed #{comp_guess}."
     end
