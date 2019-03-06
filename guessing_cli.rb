@@ -10,6 +10,7 @@ def run_guessing_game
       return 0
     when ans.to_i === comp_guess
       puts "You guessed the correct number!"
+      return 0
     else
       puts "The computer guessed #{comp_guess}."
     end
