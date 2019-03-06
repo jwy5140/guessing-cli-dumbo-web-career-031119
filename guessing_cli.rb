@@ -6,8 +6,7 @@ def run_guessing_game
     ans = gets.chomp
     case ans 
     when "exit"
-      puts "Goodbye"
-      break
+      return "Goodbye"
     when ans.to_i === comp_guess
       puts "You guessed the correct number!"
     else
